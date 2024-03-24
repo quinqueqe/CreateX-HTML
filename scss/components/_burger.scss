@@ -1,0 +1,44 @@
+.header__burger {
+	display: none;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	margin-top: 45px;
+	// background-color: black;
+
+	&-span {
+		background-color: black;
+		width: 30px;
+		height: 3px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: background-color .3s, opacity .3s, transform .5s;
+		will-change: transform;
+	}
+}
+
+.header__burger span:nth-child(1) {
+	transform: translateY(-10px);
+}
+
+.header__burger span:nth-child(2) {
+	// transform: translateY(10px);
+	width: 20px;
+	left: 9px;
+}
+
+.header__burger-span.open {
+	background-color: rgb(0, 0, 0);
+}
+
+.header__burger-span.open:nth-child(1) {
+	transform: translateY(0) rotate(40deg);
+	width: 40px;
+}
+
+.header__burger-span.open:nth-child(2) {
+	transform: translateY(0) rotate(-40deg);
+	width: 40px;
+	left: 0;
+}

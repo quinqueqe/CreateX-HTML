@@ -1,0 +1,85 @@
+.benefits {
+	background: var(--gray-200);
+}
+
+.benefits-header-title {
+	padding-bottom: 24px;
+	padding-top: 80px;
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 130%;
+	text-align: center;
+	color: var(--gray-900);
+}
+
+.benefits-header-text {
+	padding-bottom: 60px;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	color: var(--gray-700);
+	opacity: 0.6;
+}
+
+.benefits-list {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 120px;
+}
+
+.benefits-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		margin-bottom: 24px;
+	}
+
+	h2 {
+		padding-bottom: 8px;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 150%;
+		color: var(--gray-900);
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 160%;
+		color: var(--gray-700);
+		opacity: 0.6;
+		text-align: center;
+		max-width: 285px;
+	}
+}
+
+.discuss {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 325%;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--white);
+	border-radius: 4px;
+	padding: 0px 112px;
+	background: var(--primary);
+}
+
+.duscuss-btn {
+	margin-top: -26px;
+	position: relative;
+	z-index: 2345;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 150px;
+}
+
+
+
+.benefits-1 {
+	background-color: var(--white);
+}

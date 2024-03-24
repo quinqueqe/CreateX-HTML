@@ -1,0 +1,139 @@
+.contactus--title {
+	padding-top: 120px;
+}
+.contactus--text {
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	color: var(--gray-700);
+
+	padding-top: 24px;
+	padding-bottom: 60px;
+}
+
+.contactus-content {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 120px;
+}
+
+	p {
+		font-size: 16px;
+		line-height: 160%;
+		color: var(--gray-800);
+		padding-bottom: 8px;
+	}
+
+.contact-input {
+	padding: 12px 0px 12px 16px;
+	border: 1px solid var(--gray-400);
+	border-radius: 4px;
+	width: 285px;
+	height: 52px;
+	background: var(--gray-200);
+
+	&::placeholder {
+		font-size: 16px;
+		line-height: 160%;
+		color: var(--gray-600);
+	}
+}
+
+.contact-input-last {
+	padding: 12px 0px 90px 16px;
+	border: 1px solid var(--gray-400);
+	border-radius: 4px;
+	width: 600px;
+	height: 128px;
+	background: var(--gray-200);
+
+
+	&::placeholder {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 160%;
+		color: var(--gray-600);
+	}
+}
+
+.contactus-list1 {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	padding-bottom: 24px;
+}
+
+.contactus-item1 {}
+
+.contactus-list2 {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	padding-bottom: 24px;
+}
+
+.contactus-list3 {
+
+	padding-bottom: 24px;
+}
+
+.contactus-item3 {
+	input {
+		width: 100%;
+	}
+}
+
+.item3-block {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex-direction: row-reverse;
+
+	input {
+		margin-top: -5px;
+	}
+}
+
+.item-block {
+	display: flex;
+}
+
+.contactus-item4 {
+	padding-bottom: 36px;
+}
+
+.contactus-item5 {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.item5-left {
+	display: flex;
+	align-items: start;
+
+	p {
+		max-width: 287px;
+	}
+
+	input {
+		margin-top: 10px;
+		margin-right: 12px;
+	}
+}
+
+.item5-right {
+
+	button {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 325%;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: var(--white);
+
+		border-radius: 4px;
+		padding: 0px 40px;
+		background: var(--primary);
+	}
+}

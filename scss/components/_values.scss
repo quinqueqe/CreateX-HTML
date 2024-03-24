@@ -1,0 +1,35 @@
+.values {
+	padding-bottom: 120px;
+}
+
+.headear-block-values {
+	padding-bottom: 60px;
+}
+
+.values-cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.values-card__content {
+	max-width: 285px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.values-card__title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: var(--gray-900);
+	padding-bottom: 8px;
+	padding-top: 24px;
+}
+
+.values-card__text {
+	font-size: 16px;
+	line-height: 160%;
+	color: var(--gray-700);
+}

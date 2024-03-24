@@ -1,0 +1,77 @@
+.how {
+	padding-top: 60px;
+	padding-bottom: 120px;
+}
+
+.header--title {
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 130%;
+	color: var(--gray-900);
+	padding-bottom: 60px;
+}
+
+.how-cards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.how-card {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+
+	&:hover {
+		cursor: pointer;
+		transition: all 0.3s ease 0s;
+
+		.how-card__number {
+			color: var(--primary);
+			transition: all 0.3s ease 0s;
+		}
+
+		.how-card__number-circle {
+			display: block;
+			transition: all 0.3s ease 0s;
+		}
+	}
+}
+
+.how-card__number {
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 130%;
+	color: var(--gray-400);
+	padding-bottom: 16px;
+
+}
+
+.how-card__number-circle {
+	position: absolute;
+	// width: 100%;
+	// height: 100%;
+	top: -14px;
+	left: -14px;
+	display: none;
+}
+
+.how-card__title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: var(--gray-900);
+	padding-bottom: 8px;
+}
+
+.how-card__text {
+	font-size: 16px;
+	line-height: 160%;
+	color: var(--gray-700);
+	padding-bottom: 26px;
+	max-width: 285px;
+}

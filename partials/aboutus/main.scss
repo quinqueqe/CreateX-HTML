@@ -1,0 +1,23 @@
+// базовые подключения
+@import "vars";
+@import "fonts";
+@import "base";
+@import "nullstyle";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/nav";
+@import "./components/hero";
+@import "./components/cards";
+@import "./components/alex";
+@import "./components/benefits";
+@import "./components/history";
+@import "./components/supported";
+@import "./components/team";
+@import "./components/map";
+@import "./components/details";
+@import "./components/pos-cards";
+@import "./components/modal";
+@import "./components/modal2";
+@import "./components/footer";
+@import "./components/adaptive";

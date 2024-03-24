@@ -1,0 +1,26 @@
+.hero {
+	padding-top: 120px;
+	padding-bottom: 180px;
+}
+
+.hero-header-block {
+	padding-bottom: 60px;
+}
+
+.hero__video {
+	cursor: pointer;
+
+
+}
+
+@media (min-width: 967px) {
+	.iframe {
+		height: 600px;
+	}
+}
+
+@media (max-width: 671px) {
+	.iframe {
+		height: 400px;
+	}
+}

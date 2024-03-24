@@ -1,0 +1,74 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0;
+	align-items: center;
+}
+
+.nav__list {
+	display: flex;
+	gap: 40px;
+}
+
+.nav__logo {
+	width: 130px;
+	height: 22px;
+}
+
+.nav__link {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+	color: var(--gray-800);
+
+	&:hover {
+		transition: all 0.3s ease 0s;
+		color: var(--primary);
+	}
+}
+
+.nav__cards {
+	display: flex;
+	gap: 36px;
+}
+
+.nav__card {
+	position: relative;
+	padding-left: 40px;
+
+	::after {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		top: 10%;
+		left: 0;
+		right: 100%;
+		content: url("../img/homepage/nav/phone.svg");
+		object-fit: cover;
+	}
+}
+
+.nav__card-title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 150%;
+	color: var(--gray-800);
+}
+
+.nav__card-text {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: var(--gray-900);
+}
+
+.nav__card-two {
+	padding-left: 52px;
+
+	::after {
+		content: url("../img/homepage/nav/chat.svg");
+	}
+}

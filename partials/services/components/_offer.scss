@@ -1,0 +1,80 @@
+.offer {
+	padding: 120px 0;
+}
+
+.offer-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer-content-left {
+	img {
+		border-radius: 4px;
+		width: 705px;
+		height: 440px;
+	}
+}
+
+.offer-content-right {
+
+	h2 {
+		font-weight: 900;
+		font-size: 46px;
+		line-height: 130%;
+		color: var(--gray-900);
+		padding-bottom: 60px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 160%;
+		color: var(--gray-700);
+		max-width: 376px;
+		padding-left: 44px;
+		transition: all 0.3s ease 0s;
+
+		&:not(:last-child) {
+			padding-bottom: 24px;
+		}
+	}
+}
+
+.offerbtnn {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: var(--gray-900);
+	padding-bottom: 12px;
+	position: relative;
+	padding-left: 42px;
+	cursor: pointer;
+
+	&::after {
+		position: absolute;
+		width: 30px;
+		height: 22px;
+		top: -15%;
+		left: 0;
+		object-fit: cover;
+
+		content: url("././img/offer/minus.svg");
+		font-weight: 500;
+		color: var(--primary);
+	}
+}
+
+.offeractive {
+	position: relative;
+	&::after {
+		position: absolute;
+		width: 30px;
+		height: 22px;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+		content: url("././img/offer/plus.svg");
+		font-weight: 500;
+		cursor: pointer;
+		color: var(--primary);
+	}
+}

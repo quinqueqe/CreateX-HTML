@@ -1,0 +1,18 @@
+// базовые подключения
+@import "vars";
+@import "fonts";
+@import "base";
+@import "nullstyle";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/nav";
+@import "./components/hero";
+@import "./components/icons";
+@import "./components/browse";
+@import "./components/clients";
+@import "./components/supported";
+@import "./components/details";
+@import "./components/modern-slider";
+@import "./components/footer";
+@import "./components/adaptive";

@@ -1,0 +1,30 @@
+.facts {
+	padding-bottom: 120px;
+}
+
+.header-title-facts {
+	padding-bottom: 60px;
+}
+
+.facts-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.facts-inner-list {
+	display: flex;
+	gap: 48px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.facts-item__text {
+	padding-top: 20px;
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+	color: var(--gray-900);
+}
